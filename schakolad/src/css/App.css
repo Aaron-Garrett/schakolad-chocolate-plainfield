@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', 'Comic Neue', cursive;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: 'Playfair Display', 'Quicksand', serif;
+  font-size: 1.2rem;
+}

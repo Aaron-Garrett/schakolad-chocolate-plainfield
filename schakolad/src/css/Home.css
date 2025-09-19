@@ -1,0 +1,97 @@
+#splashpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: auto;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.7);
+    margin: 0;
+}
+
+#splashpage video {
+    filter: brightness(45%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+main {
+    margin-top: -12vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    height: 200vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #3e2723 0%, #6d4c41 100%);
+}
+
+.concepts {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.7);
+    margin: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overflow-y: auto;
+}
+
+.concept {
+    scroll-snap-align: center;
+    min-width: 100%;
+    height: 80%;
+    background: rgb(139, 69, 19);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.concept p {
+    padding: 1rem;
+}
+
+.tracker-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #333;
+}
