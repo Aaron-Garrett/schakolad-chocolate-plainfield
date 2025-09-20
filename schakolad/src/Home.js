@@ -39,9 +39,24 @@ function Home() {
         console.log('Concept index changed:', conceptIndex);
     }, [conceptIndex]);
 
+    const navVisibility = async (e) => {
+        e.preventDefault();
+        const navbar = document.querySelector('.navbar');
+        const vis = document.querySelectir('.visible');
+        if (navbar) {
+            if (vis) {
+                navbar.classList.remove('visible');
+            }
+            else {
+            navbar.classList.add('visible');
+            }
+        }
+    };
+
     return (
         <>
             <nav>
+                <button className="navToggle" onClick(e)={navVisibility(e)}>=</button>
                 <div className="navbar">
                     <div className="navItem">
                         Home
