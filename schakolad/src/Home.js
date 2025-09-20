@@ -41,6 +41,25 @@ function Home() {
 
     return (
         <>
+            <nav>
+                <div className="navbar">
+                    <div className="navItem">
+                        Home
+                    </div>
+                    <div className="navItem">
+                        Products
+                    </div>
+                    <div className="navItem">
+                        Contact Us/Order
+                    </div>
+                    <div className="navItem">
+                        About Us
+                    </div>
+                    <div className="navItem">
+                        Chocolate Classes
+                    </div>
+                </div>
+            </nav>
             {/* Hero Section */}
             <header id="splashpage" className="hero">
                 <video
