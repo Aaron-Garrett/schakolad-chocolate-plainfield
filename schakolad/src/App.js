@@ -4,7 +4,7 @@ import Home from './Home'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/schakolad-chocolate-plainfield">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
