@@ -14,7 +14,8 @@ function Home() {
         const containerWidth = container.offsetWidth;
 
         // Round to nearest whole index
-        const index = Math.min(3, Math.max(0, Math.round(scrollLeft / containerWidth)));
+        const step = Math.floor(scrollLeft / containerWidth);  // Determine the current step
+        const newIndex = Math.min(2, Math.max(0, step));       // Clamp between 0 and 2
         setConceptIndex(index);
     };
 
