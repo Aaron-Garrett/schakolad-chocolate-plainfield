@@ -14,7 +14,7 @@ function Home() {
         const containerWidth = container.offsetWidth;
 
         // Round to nearest whole index
-        const index = Math.min(2, Math.max(0, Math.round(scrollLeft / containerWidth)));
+        const index = Math.min(3, Math.max(0, Math.round(scrollLeft / containerWidth)));
         setConceptIndex(index);
     };
 
@@ -85,17 +85,27 @@ function Home() {
 
                         {/* Third Concept */}
                         <div className="concept">
-                            <h3>Three Generations</h3>
+                            <h3>Customization</h3>
                             <p>
-                                Our chocolates are "made fresh on premises" using a tried and true three-generation European style
-                                family recipe that calls for the highest quality ingredients and attention to design detail.
+                                Our hand-made policy means that we are easily able to accomodate customizations!
+                                It is our pleasure to make your hand-crafted chocolate experience not just delicious,
+                                but personal as well!
+                            </p>
+                        </div>
+
+                        {/* Fourth Concept */}
+                        <div className="concept">
+                            <h3>Flexibility</h3>
+                            <p>
+                                We provide our owners the flexibility to stretch and master our trade! we welcome them
+                                to try new things and see what kind of creative genius they can come up with!
                             </p>
                         </div>
                     </div>
 
                     {/* Concept Navigation Dots */}
                     <div className="tracker-dots">
-                        {[0, 1, 2].map((i) => (
+                        {[0, 1, 2, 3].map((i) => (
                             <span
                                 key={i}
                                 className={`dot ${conceptIndex === i ? 'active' : ''}`}
