@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/schakolad-chocolate-plainfield/static/css/main.6ff50d78.css",
+    "main.css": "/schakolad-chocolate-plainfield/static/css/main.b43738e0.css",
     "main.js": "/schakolad-chocolate-plainfield/static/js/main.2fbeedc5.js",
     "static/js/453.4588441d.chunk.js": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js",
     "static/media/splashscreen.mp4": "/schakolad-chocolate-plainfield/static/media/splashscreen.da1c0776c495e305e26c.mp4",
+    "static/media/IMG_9659.jpeg": "/schakolad-chocolate-plainfield/static/media/IMG_9659.9eae1ab9d932df2d5ccf.jpeg",
     "static/media/choco.png": "/schakolad-chocolate-plainfield/static/media/choco.aeaab5bb3cfce6d2ed5e.png",
     "static/media/background.jpg": "/schakolad-chocolate-plainfield/static/media/background.7ea2a6a590e5b16c7d68.jpg",
     "static/media/tray.jpg": "/schakolad-chocolate-plainfield/static/media/tray.739d4a3905c50ce716e5.jpg",
     "static/media/strawberries.jpg": "/schakolad-chocolate-plainfield/static/media/strawberries.e94581589ca9c8c212c5.jpg",
     "static/media/box.jpg": "/schakolad-chocolate-plainfield/static/media/box.e91f9ea9043269307b2d.jpg",
     "index.html": "/schakolad-chocolate-plainfield/index.html",
-    "main.6ff50d78.css.map": "/schakolad-chocolate-plainfield/static/css/main.6ff50d78.css.map",
+    "main.b43738e0.css.map": "/schakolad-chocolate-plainfield/static/css/main.b43738e0.css.map",
     "main.2fbeedc5.js.map": "/schakolad-chocolate-plainfield/static/js/main.2fbeedc5.js.map",
     "453.4588441d.chunk.js.map": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ff50d78.css",
+    "static/css/main.b43738e0.css",
     "static/js/main.2fbeedc5.js"
   ]
 }
