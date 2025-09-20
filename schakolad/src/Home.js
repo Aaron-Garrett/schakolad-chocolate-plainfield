@@ -42,13 +42,13 @@ function Home() {
     const navVisibility = async (e) => {
         e.preventDefault();
         const navbar = document.querySelector('.navbar');
-        const vis = document.querySelectir('.navbar.visible');
+        const vis = document.querySelector('.navbar.visible');
         if (navbar) {
             if (vis) {
                 navbar.classList.remove('visible');
             }
             else {
-            navbar.classList.add('visible');
+                navbar.classList.add('visible');
             }
         }
     };
