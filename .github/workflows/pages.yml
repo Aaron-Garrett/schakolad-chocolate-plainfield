@@ -19,6 +19,7 @@ jobs:
           cache: 'npm'
       - name: Install Dependencies
         run: |
+          cd schakolad
           npm install
 
       - name: Configure git identity
