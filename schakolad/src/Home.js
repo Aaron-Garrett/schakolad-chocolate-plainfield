@@ -51,7 +51,9 @@ function Home() {
                 />
                 <div className="hero-content">
                     <h2>Schakolad Chocolate Factory</h2>
-                    <p>We operate under "The Fresh Made Concept"</p>
+                    <h3>Chocolates to Live By</h3>
+                    <p>One of the truly custom retail chicolate boutiques thanks
+                        to our "Made Fresh Concept!"</p>
                 </div>
             </header>
 
@@ -62,19 +64,22 @@ function Home() {
                     <div className="concepts" ref={containerRef}>
                         {/* First Concept */}
                         <div className="concept">
-                            <h3>Made Fresh On Premises</h3>
+                            <h3>No Pre-Packaged Goods</h3>
                             <p>
-                                The "Made Fresh On Premises" concept means that chocolate items do not come pre-packaged from headquarters,
-                                rather that items are prepared and dipped at each individual retail location allowing our franchise owners
-                                the flexibility to be creative and customize our fresh products to the customer's request
+                               Our Made Fresh Concept means we don't sell pre-packaged goodies.
+                               They tend to be full of junk that detracts from the pureness of chocolate.
+                               We believe in doing chocolate right, so we make sure everything we sell
+                                fulfills that promise.
                             </p>
                         </div>
 
                         {/* Second Concept */}
                         <div className="concept">
-                            <h3>Schakolad Chocolate Factory</h3>
+                            <h3>All Hand-Crafted</h3>
                             <p>
-                                Schakolad Chocolate Factory (Pronounced Shaq-Oh-Lad) is one of the truly custom retail chocolate boutiques in the business.
+                                To fulfill our promise, all of our chocolates are hamd-crafted!
+                                That means hand-dipped, hand-molded, and hand-wrapped!
+                                This ensures the highest quality chocolate is given the highest quality care.
                             </p>
                         </div>
 
