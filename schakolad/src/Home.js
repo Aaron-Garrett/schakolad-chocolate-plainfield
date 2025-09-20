@@ -50,7 +50,7 @@ function Home() {
                     playsInline
                 />
                 <div className="hero-content">
-                    <h1>Schakolad Chocolate Factory</h1>
+                    <h2>Schakolad Chocolate Factory</h2>
                     <p>We operate under "The Fresh Made Concept"</p>
                 </div>
             </header>
