@@ -42,7 +42,7 @@ function Home() {
     const navVisibility = async (e) => {
         e.preventDefault();
         const navbar = document.querySelector('.navbar');
-        const vis = document.querySelectir('.visible');
+        const vis = document.querySelectir('.navbar.visible');
         if (navbar) {
             if (vis) {
                 navbar.classList.remove('visible');
