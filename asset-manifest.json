@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/schakolad-chocolate-plainfield/static/css/main.c4886de3.css",
+    "main.css": "/schakolad-chocolate-plainfield/static/css/main.5c5354b7.css",
     "main.js": "/schakolad-chocolate-plainfield/static/js/main.e1862a49.js",
     "static/js/453.4588441d.chunk.js": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js",
     "static/media/splashscreen.mp4": "/schakolad-chocolate-plainfield/static/media/splashscreen.da1c0776c495e305e26c.mp4",
@@ -10,12 +10,12 @@
     "static/media/strawberries.jpg": "/schakolad-chocolate-plainfield/static/media/strawberries.e94581589ca9c8c212c5.jpg",
     "static/media/box.jpg": "/schakolad-chocolate-plainfield/static/media/box.e91f9ea9043269307b2d.jpg",
     "index.html": "/schakolad-chocolate-plainfield/index.html",
-    "main.c4886de3.css.map": "/schakolad-chocolate-plainfield/static/css/main.c4886de3.css.map",
+    "main.5c5354b7.css.map": "/schakolad-chocolate-plainfield/static/css/main.5c5354b7.css.map",
     "main.e1862a49.js.map": "/schakolad-chocolate-plainfield/static/js/main.e1862a49.js.map",
     "453.4588441d.chunk.js.map": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4886de3.css",
+    "static/css/main.5c5354b7.css",
     "static/js/main.e1862a49.js"
   ]
 }
