@@ -7,7 +7,7 @@ function App() {
     <Router basename="/schakolad-chocolate-plainfield">
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/chocolate-facts" element={<ChocolateFacts />} /> */}
         </Routes>
