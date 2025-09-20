@@ -252,7 +252,7 @@ h2 {
     display: none;
     flex-direction: column;
     height: 90vh;
-    justify-contnet: space-around;
+    justify-content: space-around;
     align-items: space-around;
 }
 
