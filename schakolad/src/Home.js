@@ -56,7 +56,7 @@ function Home() {
     return (
         <>
             <nav>
-                <button className="navToggle" onClick(e)={navVisibility(e)}>=</button>
+                <button className="navToggle" onClick={(e) => navVisibility(e)}>=</button>
                 <div className="navbar">
                     <div className="navItem">
                         Home
