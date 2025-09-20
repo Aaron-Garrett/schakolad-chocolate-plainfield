@@ -245,3 +245,12 @@ h2 {
     font-size: 1rem;
     color: #fff;
 }
+
+.navbar {
+    width: 100%;
+    background-color: gold;
+}
+
+.navItem{
+    background-image: url('../img/IMG_9659.jpeg');
+}
