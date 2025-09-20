@@ -16,7 +16,7 @@ function Home() {
         // Round to nearest whole index
         const step = Math.floor(scrollLeft / containerWidth);  // Determine the current step
         const newIndex = Math.min(2, Math.max(0, step));       // Clamp between 0 and 2
-        setConceptIndex(index);
+        setConceptIndex(newIndex);
     };
 
     useEffect(() => {
