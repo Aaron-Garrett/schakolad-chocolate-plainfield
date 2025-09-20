@@ -249,8 +249,24 @@ h2 {
 .navbar {
     width: 100%;
     background-color: gold;
+    display: hidden;
+    flex-directiom: column;
+    height: 90vh;
+    justify-contnet: space-around;
+    align-items: space-around;
+}
+
+.navbar .visible {
+    display: flex;
 }
 
 .navItem{
     background-image: url('../img/IMG_9659.jpeg');
+}
+
+.navToggle {
+    height: 5vh;
+    background-color: gold;
+    align-content: center;
+    justify-contnet: center;
 }
