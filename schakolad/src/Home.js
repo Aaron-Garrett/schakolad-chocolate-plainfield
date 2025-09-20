@@ -138,6 +138,7 @@ function Home() {
                 {/* Health Benefits Section */}
                 <article id="why-chocolate">
                     <h2 style={{ color: '#D2B48C' }}>What Makes Chocolate Great?</h2>
+                    <h3>First off, have you tried it?! 😄</h3>
                     <p>Chocolate is not just a treat; it can have some health benefits too!</p>
                     <ul>
                         <li><strong>1: </strong>A Harvard study showed that chocolate, in moderation, may help people live longer.</li>
