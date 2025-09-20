@@ -249,8 +249,8 @@ h2 {
 .navbar {
     width: 100%;
     background-color: gold;
-    display: hidden;
-    flex-directiom: column;
+    display: none;
+    flex-direction: column;
     height: 90vh;
     justify-contnet: space-around;
     align-items: space-around;
@@ -262,11 +262,13 @@ h2 {
 
 .navItem{
     background-image: url('../img/IMG_9659.jpeg');
+    height: 15vh;
 }
 
 .navToggle {
     height: 5vh;
     background-color: gold;
     align-content: center;
-    justify-contnet: center;
+    width: 100%;
+    justify-content: center;
 }
