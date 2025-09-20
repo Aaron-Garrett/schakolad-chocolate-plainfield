@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4c9e37e.css",
-    "main.js": "/static/js/main.0a71afe6.js",
-    "static/js/453.4588441d.chunk.js": "/static/js/453.4588441d.chunk.js",
-    "static/media/splashscreen.mp4": "/static/media/splashscreen.da1c0776c495e305e26c.mp4",
-    "static/media/choco.png": "/static/media/choco.aeaab5bb3cfce6d2ed5e.png",
-    "static/media/background.jpg": "/static/media/background.7ea2a6a590e5b16c7d68.jpg",
-    "static/media/tray.jpg": "/static/media/tray.739d4a3905c50ce716e5.jpg",
-    "static/media/strawberries.jpg": "/static/media/strawberries.e94581589ca9c8c212c5.jpg",
-    "static/media/box.jpg": "/static/media/box.e91f9ea9043269307b2d.jpg",
-    "index.html": "/index.html",
-    "main.c4c9e37e.css.map": "/static/css/main.c4c9e37e.css.map",
-    "main.0a71afe6.js.map": "/static/js/main.0a71afe6.js.map",
-    "453.4588441d.chunk.js.map": "/static/js/453.4588441d.chunk.js.map"
+    "main.css": "/schakolad-chocolate-plainfield/static/css/main.4f6b0395.css",
+    "main.js": "/schakolad-chocolate-plainfield/static/js/main.d1f0720e.js",
+    "static/js/453.4588441d.chunk.js": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js",
+    "static/media/splashscreen.mp4": "/schakolad-chocolate-plainfield/static/media/splashscreen.da1c0776c495e305e26c.mp4",
+    "static/media/choco.png": "/schakolad-chocolate-plainfield/static/media/choco.aeaab5bb3cfce6d2ed5e.png",
+    "static/media/background.jpg": "/schakolad-chocolate-plainfield/static/media/background.7ea2a6a590e5b16c7d68.jpg",
+    "static/media/tray.jpg": "/schakolad-chocolate-plainfield/static/media/tray.739d4a3905c50ce716e5.jpg",
+    "static/media/strawberries.jpg": "/schakolad-chocolate-plainfield/static/media/strawberries.e94581589ca9c8c212c5.jpg",
+    "static/media/box.jpg": "/schakolad-chocolate-plainfield/static/media/box.e91f9ea9043269307b2d.jpg",
+    "index.html": "/schakolad-chocolate-plainfield/index.html",
+    "main.4f6b0395.css.map": "/schakolad-chocolate-plainfield/static/css/main.4f6b0395.css.map",
+    "main.d1f0720e.js.map": "/schakolad-chocolate-plainfield/static/js/main.d1f0720e.js.map",
+    "453.4588441d.chunk.js.map": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4c9e37e.css",
-    "static/js/main.0a71afe6.js"
+    "static/css/main.4f6b0395.css",
+    "static/js/main.d1f0720e.js"
   ]
 }
