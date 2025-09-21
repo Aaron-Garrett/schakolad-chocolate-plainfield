@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/schakolad-chocolate-plainfield/static/css/main.160a0692.css",
-    "main.js": "/schakolad-chocolate-plainfield/static/js/main.4ead2894.js",
+    "main.css": "/schakolad-chocolate-plainfield/static/css/main.2c590338.css",
+    "main.js": "/schakolad-chocolate-plainfield/static/js/main.5af77644.js",
     "static/js/453.4588441d.chunk.js": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js",
     "static/media/splashscreen.mp4": "/schakolad-chocolate-plainfield/static/media/splashscreen.da1c0776c495e305e26c.mp4",
-    "static/media/IMG_9659.jpeg": "/schakolad-chocolate-plainfield/static/media/IMG_9659.9eae1ab9d932df2d5ccf.jpeg",
+    "static/media/nav.jpeg": "/schakolad-chocolate-plainfield/static/media/nav.cb287c866e00bc223b32.jpeg",
+    "static/media/active_nav.png": "/schakolad-chocolate-plainfield/static/media/active_nav.e6f22405ba9a86afb417.png",
     "static/media/choco.png": "/schakolad-chocolate-plainfield/static/media/choco.aeaab5bb3cfce6d2ed5e.png",
     "static/media/background.jpg": "/schakolad-chocolate-plainfield/static/media/background.7ea2a6a590e5b16c7d68.jpg",
     "static/media/tray.jpg": "/schakolad-chocolate-plainfield/static/media/tray.739d4a3905c50ce716e5.jpg",
     "static/media/strawberries.jpg": "/schakolad-chocolate-plainfield/static/media/strawberries.e94581589ca9c8c212c5.jpg",
     "static/media/box.jpg": "/schakolad-chocolate-plainfield/static/media/box.e91f9ea9043269307b2d.jpg",
     "index.html": "/schakolad-chocolate-plainfield/index.html",
-    "main.160a0692.css.map": "/schakolad-chocolate-plainfield/static/css/main.160a0692.css.map",
-    "main.4ead2894.js.map": "/schakolad-chocolate-plainfield/static/js/main.4ead2894.js.map",
+    "main.2c590338.css.map": "/schakolad-chocolate-plainfield/static/css/main.2c590338.css.map",
+    "main.5af77644.js.map": "/schakolad-chocolate-plainfield/static/js/main.5af77644.js.map",
     "453.4588441d.chunk.js.map": "/schakolad-chocolate-plainfield/static/js/453.4588441d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160a0692.css",
-    "static/js/main.4ead2894.js"
+    "static/css/main.2c590338.css",
+    "static/js/main.5af77644.js"
   ]
 }
