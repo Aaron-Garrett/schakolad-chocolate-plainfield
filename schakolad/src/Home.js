@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { FaBars } from 'react-icons/fa';
 import './css/Home.css';
 
 
@@ -42,31 +43,42 @@ function Home() {
     const navVisibility = async (e) => {
         e.preventDefault();
         const navbar = document.querySelector('.navbar');
-        
+
         if (navbar) {
             navbar.classList.toggle('visible')
         }
     };
 
+    const makeActive = async (e) => {
+        e.preventDefault();
+        const navItems = document.querySelectorAll('.navItem');
+
+        navItems.forEach(item => {
+            item.classList.remove('active');
+        });
+
+        e.currentTarget.classList.add('active');
+    }
+
     return (
         <>
             <nav>
-                <button className="navToggle" onClick={(e) => navVisibility(e)}>=</button>
+                <FaBars  className="navToggle" size={24} onClick={(e) => navVisibility(e)} />
                 <div className="navbar">
-                    <div className="navItem">
-                        Home
+                    <div className="navItem active" onClick={(e) => makeActive(e)}>
+                        <p>Home</p>
                     </div>
-                    <div className="navItem">
-                        Products
+                    <div className="navItem" onClick={(e) => makeActive(e)}>
+                        <p>Products</p>
                     </div>
-                    <div className="navItem">
-                        Contact Us/Order
+                    <div className="navItem" onClick={(e) => makeActive(e)}>
+                        <p>Contact Us/Order</p>
                     </div>
-                    <div className="navItem">
-                        About Us
+                    <div className="navItem" onClick={(e) => makeActive(e)}>
+                        <p>About Us</p>
                     </div>
-                    <div className="navItem">
-                        Chocolate Classes
+                    <div className="navItem" onClick={(e) => makeActive(e)}>
+                        <p>Chocolate Classes</p>
                     </div>
                 </div>
             </nav>
@@ -86,7 +98,6 @@ function Home() {
                         to our "Made Fresh Concept!"</p>
                 </div>
             </header>
-
             <main>
                 {/* Made Fresh Concept Section */}
                 <article id="made-fresh">
@@ -96,9 +107,9 @@ function Home() {
                         <div className="concept">
                             <h3>No Pre-Packaged Goods</h3>
                             <p>
-                               Our Made Fresh Concept means we don't sell pre-packaged goodies.
-                               They tend to be full of junk that detracts from the pureness of chocolate.
-                               We believe in doing chocolate right, so we make sure everything we sell
+                                Our Made Fresh Concept means we don't sell pre-packaged goodies.
+                                They tend to be full of junk that detracts from the pureness of chocolate.
+                                We believe in doing chocolate right, so we make sure everything we sell
                                 fulfills that promise.
                             </p>
                         </div>
